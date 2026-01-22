@@ -2,7 +2,7 @@
 <br>
 Traffic Signal Program In Python It shows the color signal as instruction (stop,ready,Go)
 <br>
-<body>
+
 ch = input("Enter traffic light color: ")
 if ch == "Red ":
     print("STOP!!!")
@@ -12,4 +12,4 @@ elif ch == "Orange":
     print("BE READY...")
 else:
     print("Invalid choice")
-</body>
+
