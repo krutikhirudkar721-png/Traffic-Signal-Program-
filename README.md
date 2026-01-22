@@ -1,6 +1,6 @@
 # Traffic-Signal-Program-
 <br>
-Traffic Signal Program In Python It shows the color signal as instruction (stop,ready,Go)
+# Traffic Signal Program In Python It shows the color signal as instruction (stop,ready,Go)
 <br>
 <br>
 ch = input("Enter traffic light color: ")
