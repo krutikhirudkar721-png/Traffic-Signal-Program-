@@ -1,16 +1,13 @@
 # Traffic-Signal-Program-
-    # Traffic Signal Program In Python It shows the color signal as instruction (stop,ready,Go)
+# Traffic Signal Program In Python It shows the color signal as instruction (stop,ready,Go)
+ch = input("Enter traffic light color: ").strip().capitalize()
 
-    ch = input("Enter traffic light color: ")
-    <br>
-    if ch == "Red ":
-    print("STOP!!!")
-   
-    elif ch == "Green":
-     print("GO")
-   
-    elif ch == "Orange":
-    print("BE READY...")
-    else:
-    print("Invalid choice")
-    
+match ch:
+    case "Red":
+        print("🛑 STOP!!!")
+    case "Green":
+        print("🟢 GO")
+    case "Orange" | "Yellow":  # Handles both common terms for the middle light
+        print("🟠 BE READY...")
+    case _:
+        print("❌ Invalid choice")
