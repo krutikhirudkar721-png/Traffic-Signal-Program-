@@ -11,4 +11,4 @@
             case "Orange" | "Yellow":  # Handles both common terms for the middle light
                 print("🟠 BE READY...")
             case _:
-                print("❌ Invalid choice")
+                print("❌ Invalid choice Please sclect valid choice")
