@@ -2,7 +2,6 @@
 
 # Traffic Signal Program In Python It shows the color signal as instruction 
 
-
         ch = input("Enter traffic light color: ").strip().capitalize()
         match ch:
             case "Red":
